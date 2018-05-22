@@ -1,9 +1,11 @@
 package ru.isa.catalogiser;
 
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-
+import java.io.IOException;
 
 
 public class xlsxReader {
@@ -22,7 +24,11 @@ public class xlsxReader {
 
     void tmp(){
         // Finds the workbook instance for XLSX file
-        XSSFWorkbook myWorkBook = new XSSFWorkbook (fis);
+        try {
+            XSSFWorkbook myWorkBook = new XSSFWorkbook (fis);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
 }
