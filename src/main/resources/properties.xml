@@ -2,8 +2,8 @@
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
     <comment>nothing to commenr</comment>
-    <entry key="testkey">текст проверки</entry>
-    <entry key="message">текст message для проверки</entry>
-    <entry key="cataloguePath">C:\Users\sigdi\Desktop\ideatstPhotos</entry>
+    <entry key="message">текст проверки</entry>
+    <entry key="xlspath">C:\Users\sigdi\Desktop\ideatstPhotos\tmp1.xlsx</entry>
+    <entry key="cataloguePath">C:\Users\sigdi\Desktop\ideatstPhotos\Новые артикулы</entry>
     <entry key="pdfPath">C:\Users\sigdi\Desktop\ideatestPhotos.pdf</entry>
 </properties>

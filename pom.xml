@@ -22,6 +22,14 @@
 
     <repositories>
         <repository>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+            <id>central</id>
+            <name>Central Repository</name>
+            <url>https://repo.maven.apache.org/maven2</url>
+        </repository>
+        <repository>
             <id>javaxt.com</id>
             <url>http://www.javaxt.com/maven</url>
         </repository>
